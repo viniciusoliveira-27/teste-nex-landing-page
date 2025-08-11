@@ -5,6 +5,7 @@ import ServicesSection from './components/serviceCard';
 import HowWeWorkSection from './components/howWeWorkSection';
 import DigitalSuccessSection from './components/digitalSuccess';
 import CtaSection from './components/ctaSection';
+import Footer from './components/footer';
 
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <HowWeWorkSection />
       <DigitalSuccessSection />
       <CtaSection />
+      <Footer />
 
     </div>
   );

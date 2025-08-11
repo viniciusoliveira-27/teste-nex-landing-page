@@ -1,3 +1,5 @@
+import React from 'react';
+
 const CtaSection: React.FC = () => {
     return (
         <section className="font-sans bg-[#111111] text-white py-20 lg:py-28">
