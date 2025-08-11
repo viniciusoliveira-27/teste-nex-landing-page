@@ -4,6 +4,7 @@ import DigitalSolution from './components/digitalSolution/digitalSolution';
 import ServicesSection from './components/serviceCard';
 import HowWeWorkSection from './components/howWeWorkSection';
 import DigitalSuccessSection from './components/digitalSuccess';
+import CtaSection from './components/ctaSection';
 
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <ServicesSection />
       <HowWeWorkSection />
       <DigitalSuccessSection />
+      <CtaSection />
 
     </div>
   );
