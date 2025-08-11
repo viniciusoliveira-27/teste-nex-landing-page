@@ -8,34 +8,6 @@
 
 Uma landing page moderna e responsiva para a NEX Digital Solutions, desenvolvida com React, TypeScript e Tailwind CSS. O projeto inclui uma funcionalidade avançada de busca de CEP integrada com a API ViaCEP.
 
-## 📋 Índice
-
-- [🚀 NEX Digital Solutions - Landing Page](#-nex-digital-solutions---landing-page)
-  - [📋 Índice](#-índice)
-  - [🎯 Sobre o Projeto](#-sobre-o-projeto)
-  - [✨ Funcionalidades](#-funcionalidades)
-    - [🏠 Landing Page Completa](#-landing-page-completa)
-    - [🔍 Busca de CEP Avançada](#-busca-de-cep-avançada)
-    - [📱 Interface Responsiva](#-interface-responsiva)
-  - [🛠️ Tecnologias](#️-tecnologias)
-    - [Core](#core)
-    - [Dependências](#dependências)
-    - [DevTools](#devtools)
-  - [🚀 Como Executar](#-como-executar)
-    - [Pré-requisitos](#pré-requisitos)
-    - [Instalação](#instalação)
-    - [Scripts Disponíveis](#scripts-disponíveis)
-  - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-  - [🔍 Funcionalidade de Busca CEP](#-funcionalidade-de-busca-cep)
-    - [🎯 Como Funciona](#-como-funciona)
-    - [🔧 Implementação Técnica](#-implementação-técnica)
-      - [Hook Personalizado (`useCepSearch`)](#hook-personalizado-usecepsearch)
-      - [Campos Preenchidos Automaticamente](#campos-preenchidos-automaticamente)
-      - [Validação de CEP](#validação-de-cep)
-    - [📊 API Integration](#-api-integration)
-  - [📄 Licença](#-licença)
-  - [🏆 Diferenciais Implementados](#-diferenciais-implementados)
-
 ## 🎯 Sobre o Projeto
 
 Este projeto é uma landing page para a NEX Digital Solutions, uma agência digital especializada em soluções criativas e estratégicas. A página foi desenvolvida como parte de um teste técnico, demonstrando habilidades em:
@@ -222,6 +194,22 @@ const isValidCep = (cep: string): boolean => {
   "ddd": "11",
   "siafi": "7107"
 }
+```
+
+## 🚀 Deploy
+
+Este projeto está hospedado na **Vercel** com deploy automático configurado:
+
+- **URL de Produção:** [https://teste-nex-landing-page.vercel.app/](https://teste-nex-landing-page.vercel.app/)
+- **Deploy automático** a cada push na branch main
+- **HTTPS** e **CDN global** configurados automaticamente
+
+### Para fazer seu próprio deploy:
+
+1. **Fork** este repositório
+2. **Conecte** sua conta Vercel ao GitHub
+3. **Import** o projeto na Vercel
+4. **Deploy** automático será executado
 
 ## 📄 Licença
 
