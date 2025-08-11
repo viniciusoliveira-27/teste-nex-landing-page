@@ -45,7 +45,7 @@ const DigitalSolution: React.FC = () => {
               <div className="flex flex-col">
                 <p className="font-sans text-sm text-gray-500 font-medium">Great Design Services</p>
                 <p className="font-sans text-sm text-gray-500 font-medium mb-4">Without The Instantiousness!</p>
-                <h1 className="font-serif text-8xl md:text-9xl lg:text-[140px] text-gray-900 leading-none">
+                <h1 className="font-serif text-5xl sm:text-7xl md:text-9xl lg:text-[140px] text-gray-900 leading-none break-words">
                   Digital
                 </h1>
               </div>
@@ -85,16 +85,15 @@ const DigitalSolution: React.FC = () => {
 
 
             {/* Web Design badge + Solution ocupando a linha inteira */}
-            <div className="flex items-center gap-6 lg:gap-8">
+            <div className="flex flex-wrap items-center gap-4 sm:gap-6 lg:gap-8">
               <div className="flex-shrink-0 bg-lime-300 rounded-2xl p-2 flex items-center justify-center">
-                {/* Ícone de Web Design (mantido o placeholder que você usará) */}
                 <img
                   src="/images/web-design.svg"
                   alt="Web Design Icon"
-                  className="h-24 w-auto"
+                  className="h-16 w-auto sm:h-20 md:h-24"
                 />
               </div>
-              <h1 className="font-serif text-8xl md:text-9xl lg:text-[140px] text-gray-900 leading-none">
+              <h1 className="font-serif text-5xl sm:text-6xl md:text-8xl lg:text-[140px] text-gray-900 leading-none">
                 Solution
               </h1>
             </div>
@@ -146,14 +145,14 @@ const DigitalSolution: React.FC = () => {
                   Established in 1995, NEXIN Has Been A Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate Team Of Designers.
                 </p>
                 <a href="#" className="font-semibold text-white hover:text-lime-400 transition-colors inline-flex items-center gap-2">
-                  More About Us 
+                  More About Us
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </a>
               </div>
-              
+
               {/* Coluna 3: Contato */}
               <div className="flex flex-col gap-4">
-                 <p className="leading-relaxed text-gray-400">
+                <p className="leading-relaxed text-gray-400">
                   Established in 1995, NEXIN Has Been A Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate Team Of Designers.
                 </p>
                 <a href="#" className="font-semibold text-white hover:text-lime-400 transition-colors inline-flex items-center gap-2">
