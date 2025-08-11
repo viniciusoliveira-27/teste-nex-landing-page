@@ -1,6 +1,5 @@
-// src/components/Navbar/Navbar.tsx
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
 
 interface NavItem {
   label: string;
@@ -42,15 +41,18 @@ const Navbar: React.FC = () => {
               <a
                 key={index}
                 href={item.href}
-                className="text-gray-700 hover:text-lime-400 transition-colors duration-200"
+                className="text-gray-700 hover:text-lime-400 transition-colors duration-200 font-medium"
               >
                 {item.label}
               </a>
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* Right side - Search and CTA Button */}
+          <div className="hidden md:flex items-center space-x-4">
+            <button className="text-gray-700 hover:text-lime-400 transition-colors duration-200">
+              <Search className="h-5 w-5" />
+            </button>
             <button className="bg-lime-400 text-black px-6 py-2 rounded-full font-medium hover:bg-lime-500 transition-colors duration-200">
               Get A Quote
             </button>
@@ -76,9 +78,14 @@ const Navbar: React.FC = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="bg-lime-400 text-black px-6 py-2 rounded-full font-medium w-fit">
-                Get A Quote
-              </button>
+              <div className="flex items-center space-x-4">
+                <button className="text-gray-700">
+                  <Search className="h-5 w-5" />
+                </button>
+                <button className="bg-lime-400 text-black px-6 py-2 rounded-full font-medium w-fit">
+                  Get A Quote
+                </button>
+              </div>
             </div>
           </div>
         )}
